@@ -1,0 +1,2016 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Event Feedback Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER / NAVBAR ================= -->
+
+    <header>
+        <nav>
+
+            <!-- Website Logo / Name -->
+            <h3 class="logo">
+                R K <span>Events</span>
+            </h3>
+
+            <!-- Navigation Links -->
+            <ul class="nav-buttons">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+
+                <li>
+                    <a href="feedback.html">Feedback</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="Contactus.html">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    WELCOME TO R K EVENTS
+                </p>
+
+                <h1>
+                    Your Feedback Shapes Better Events.
+                </h1>
+
+                <p class="hero-description">
+                    Share your experience, rate events, and help us
+                    create better experiences for everyone.
+                </p>
+
+
+                <!-- Hero Buttons -->
+                <div class="hero-buttons">
+
+                    <a href="events.html" class="btn btn-primary">
+                        Explore Events
+                    </a>
+
+                    <a href="feedback.html" class="btn btn-secondary">
+                        Give Feedback
+                    </a>
+
+                </div>
+
+
+                <!-- Level 2 DOM Practice -->
+
+                <p id="welcomeMessage"></p>
+
+                <button id="messageButton" class="btn btn-primary">
+                    Show Message
+                </button>
+
+            </div>
+
+
+            <!-- Feedback Card -->
+            <div class="hero-visual">
+
+                <div class="feedback-card">
+
+                    <p class="card-label">
+                        EVENT FEEDBACK
+                    </p>
+
+                    <h2>
+                        ⭐ 4.8 / 5
+                    </h2>
+
+                    <p>
+                        "Amazing event! I really enjoyed
+                        the experience."
+                    </p>
+
+                    <span>
+                        — Recent Attendee
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES SECTION ================= -->
+
+        <section class="features">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    WHY R K EVENTS?
+                </p>
+
+                <h2>
+                    Simple Feedback. Better Events.
+                </h2>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+                <!-- Feature 1 -->
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        📝
+                    </div>
+
+                    <h3>
+                        Easy Feedback
+                    </h3>
+
+                    <p>
+                        Submit your event experience
+                        through a simple feedback form.
+                    </p>
+
+                </div>
+
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ⭐
+                    </div>
+
+                    <h3>
+                        Rate Events
+                    </h3>
+
+                    <p>
+                        Give ratings and share your
+                        experience with the event.
+                    </p>
+
+                </div>
+
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        📊
+                    </div>
+
+                    <h3>
+                        Improve Events
+                    </h3>
+
+                    <p>
+                        Feedback helps organizers
+                        understand what attendees need.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 Event Feedback Management System.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Events - R K Events</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER / NAVBAR -->
+
+    <header>
+
+        <nav>
+
+            <h3 class="logo">
+                R K <span>Events</span>
+            </h3>
+
+            <ul class="nav-buttons">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+
+                <li>
+                    <a href="feedback.html">Feedback</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="Contactus.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+        <section class="page-header">
+
+            <p class="eyebrow">
+                R K EVENTS
+            </p>
+
+            <h1>
+                Explore Our Events
+            </h1>
+
+            <p>
+                Discover upcoming events and share your
+                experience with us.
+            </p>
+
+        </section>
+
+
+        <!-- EVENTS -->
+
+        <section class="events-section">
+
+            <!-- JavaScript will create event cards here -->
+
+            <div id="eventGrid" class="event-grid"></div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 Event Feedback Management System.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<body>
+    <h1>About Us</h1>
+    <p>Welcome to the Event Feedback Management System!</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Feedback - R K Events</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER / NAVBAR -->
+
+    <header>
+
+        <nav>
+
+            <h3 class="logo">
+                R K <span>Events</span>
+            </h3>
+
+            <ul class="nav-buttons">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+
+                <li>
+                    <a href="feedback.html">Feedback</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="Contactus.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+        <section class="page-header">
+
+            <p class="eyebrow">
+                R K EVENTS
+            </p>
+
+            <h1>
+                Event Feedback
+            </h1>
+
+            <p>
+                Tell us about your event experience.
+            </p>
+
+        </section>
+
+
+        <!-- FEEDBACK FORM -->
+
+        <section class="feedback-section">
+
+            <form id="feedbackForm" class="feedback-form">
+
+                <!-- NAME -->
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Full Name
+                    </label>
+
+                    <input type="text" id="name" placeholder="Enter your name">
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input type="email" id="email" placeholder="Enter your email">
+
+                </div>
+
+
+                <!-- EVENT -->
+
+                <div class="form-group">
+
+                    <label for="eventName">
+                        Select Event
+                    </label>
+
+                    <select id="eventName">
+
+                        <option value="">
+                            Select an event
+                        </option>
+
+                        <option value="Tech Conference 2026">
+                            Tech Conference 2026
+                        </option>
+
+                        <option value="AI Workshop">
+                            AI Workshop
+                        </option>
+
+                        <option value="College Fest 2026">
+                            College Fest 2026
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- RATING -->
+
+                <div class="form-group">
+
+                    <label for="rating">
+                        Rating
+                    </label>
+
+                    <select id="rating">
+
+                        <option value="">
+                            Select rating
+                        </option>
+
+                        <option value="5">
+                            ⭐⭐⭐⭐⭐ - 5
+                        </option>
+
+                        <option value="4">
+                            ⭐⭐⭐⭐ - 4
+                        </option>
+
+                        <option value="3">
+                            ⭐⭐⭐ - 3
+                        </option>
+
+                        <option value="2">
+                            ⭐⭐ - 2
+                        </option>
+
+                        <option value="1">
+                            ⭐ - 1
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- FEEDBACK -->
+
+                <div class="form-group">
+
+                    <label for="feedback">
+                        Your Feedback
+                    </label>
+
+                    <textarea id="feedback" rows="5" placeholder="Write your feedback..."></textarea>
+
+                </div>
+
+
+                <!-- SUBMIT -->
+
+                <button type="submit" class="btn btn-primary submit-btn">
+                    Submit Feedback
+                </button>
+
+            </form>
+
+
+            <!-- SUCCESS MESSAGE -->
+
+            <p id="successMessage"></p>
+
+
+            <!-- SAVED FEEDBACK -->
+            <div class="feedback-tools">
+
+                <input type="text" id="searchFeedback" placeholder="Search by name or event...">
+
+                <select id="ratingFilter">
+                    <option value="all">All Ratings</option>
+                    <option value="5">5 Stars</option>
+                    <option value="4">4 Stars</option>
+                    <option value="3">3 Stars</option>
+                    <option value="2">2 Stars</option>
+                    <option value="1">1 Star</option>
+                </select>
+
+            </div>
+
+            <div id="savedFeedback"></div>
+            <button id="clearAllBtn" class="btn btn-primary">
+                Clear All Feedback
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 Event Feedback Management System.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =====================================
+// R K EVENTS - JAVASCRIPT
+// =====================================
+
+console.log("R K Events website loaded!");
+
+
+// =====================================
+// NAVIGATION
+// =====================================
+
+const navLinks = document.querySelectorAll(".nav-buttons a");
+
+navLinks.forEach(function (link) {
+
+    link.addEventListener("click", function () {
+
+        console.log("Clicked:", link.textContent);
+
+    });
+
+});
+
+
+// =====================================
+// HOME PAGE
+// =====================================
+
+const messageButton = document.querySelector("#messageButton");
+const welcomeMessage = document.querySelector("#welcomeMessage");
+const heading = document.querySelector(".hero h1");
+
+if (messageButton && welcomeMessage) {
+
+    messageButton.addEventListener("click", function () {
+
+        if (welcomeMessage.textContent === "") {
+
+            welcomeMessage.textContent =
+                "Thank you for visiting R K Events!";
+
+        } else {
+
+            welcomeMessage.textContent = "";
+
+        }
+
+    });
+
+}
+
+
+if (heading) {
+
+    heading.classList.add("highlight");
+
+}
+
+
+// =====================================
+// DYNAMIC EVENTS
+// =====================================
+
+const eventGrid = document.querySelector("#eventGrid");
+
+if (eventGrid) {
+
+    const events = [
+
+        {
+            name: "Tech Conference 2026",
+            date: "25 SEP",
+            location: "New Delhi",
+            description:
+                "A conference focused on technology and innovation."
+        },
+
+        {
+            name: "AI Workshop",
+            date: "28 SEP",
+            location: "Meerut",
+            description:
+                "Learn the basics of Artificial Intelligence."
+        },
+
+        {
+            name: "College Fest 2026",
+            date: "02 OCT",
+            location: "Meerut",
+            description:
+                "A fun college event with activities and competitions."
+        }
+
+    ];
+
+
+    events.forEach(function (event) {
+
+        eventGrid.innerHTML += `
+
+            <div class="event-card">
+
+                <div class="event-date">
+
+                    <strong>
+                        ${event.date}
+                    </strong>
+
+                </div>
+
+
+                <div class="event-content">
+
+                    <h2>
+                        ${event.name}
+                    </h2>
+
+                    <p class="event-location">
+                        📍 ${event.location}
+                    </p>
+
+                    <p>
+                        ${event.description}
+                    </p>
+
+                    <a
+                        href="feedback.html?event=${encodeURIComponent(event.name)}"
+                        class="btn btn-primary"
+                    >
+                        Give Feedback
+                    </a>
+
+                </div>
+
+            </div>
+
+        `;
+
+    });
+
+}
+
+
+// =====================================
+// FEEDBACK FORM
+// =====================================
+
+const feedbackForm =
+    document.querySelector("#feedbackForm");
+
+
+if (feedbackForm) {
+
+    const eventSelect =
+        document.querySelector("#eventName");
+
+
+    // GET EVENT FROM URL
+
+    const params =
+        new URLSearchParams(window.location.search);
+
+    const selectedEvent =
+        params.get("event");
+
+
+    if (selectedEvent) {
+
+        eventSelect.value =
+            selectedEvent;
+
+    }
+
+
+    // FORM SUBMIT
+
+    feedbackForm.addEventListener(
+        "submit",
+        function (event) {
+
+            event.preventDefault();
+
+
+            // GET FORM VALUES
+
+            const name =
+                document.querySelector("#name").value.trim();
+
+            const email =
+                document.querySelector("#email").value.trim();
+
+            const eventName =
+                document.querySelector("#eventName").value;
+
+            const rating =
+                document.querySelector("#rating").value;
+
+            const feedback =
+                document.querySelector("#feedback").value.trim();
+
+
+            // VALIDATION
+
+            if (
+                name === "" ||
+                email === "" ||
+                eventName === "" ||
+                rating === "" ||
+                feedback === ""
+            ) {
+
+                alert(
+                    "Please fill all the fields."
+                );
+
+                return;
+
+            }
+
+
+            // EMAIL VALIDATION
+
+            if (!email.includes("@")) {
+
+                alert(
+                    "Please enter a valid email."
+                );
+
+                return;
+
+            }
+
+
+            // CREATE FEEDBACK OBJECT
+
+            const feedbackData = {
+
+                name: name,
+
+                email: email,
+
+                event: eventName,
+
+                rating: rating,
+
+                feedback: feedback
+
+            };
+
+
+            // GET OLD FEEDBACKS
+
+            let feedbacks =
+                JSON.parse(
+                    localStorage.getItem("feedbacks")
+                );
+
+
+            // IF NOTHING EXISTS
+
+            if (!Array.isArray(feedbacks)) {
+
+                feedbacks = [];
+
+            }
+
+
+            // ADD NEW FEEDBACK
+
+            feedbacks.push(feedbackData);
+
+
+            // SAVE ALL FEEDBACKS
+
+            localStorage.setItem(
+                "feedbacks",
+                JSON.stringify(feedbacks)
+            );
+
+
+            // SUCCESS MESSAGE
+
+            const successMessage =
+                document.querySelector("#successMessage");
+
+
+            successMessage.textContent =
+                "Thank you, " +
+                name +
+                "! Your feedback for " +
+                eventName +
+                " has been submitted successfully.";
+
+
+            // RESET FORM
+
+            feedbackForm.reset();
+
+
+            // REFRESH SAVED FEEDBACK DISPLAY
+
+            displaySavedFeedback();
+
+        });
+
+}
+
+
+
+// =====================================
+// FEEDBACK SEARCH + FILTER
+// =====================================
+
+const searchFeedback =
+    document.querySelector("#searchFeedback");
+
+const ratingFilter =
+    document.querySelector("#ratingFilter");
+
+
+// DISPLAY SAVED FEEDBACK
+function displaySavedFeedback() {
+
+    const savedFeedback =
+        document.querySelector("#savedFeedback");
+
+    if (!savedFeedback) {
+        return;
+    }
+
+    const feedbacks =
+        JSON.parse(
+            localStorage.getItem("feedbacks")
+        ) || [];
+
+
+    // TOTAL COUNT
+    const totalCount = feedbacks.length;
+
+
+    if (totalCount === 0) {
+
+        savedFeedback.innerHTML = `
+            <h3>Total Feedback: 0</h3>
+            <p>No feedback submitted yet.</p>
+        `;
+
+        return;
+    }
+
+
+    // SEARCH VALUE
+    const searchText =
+        searchFeedback
+            ? searchFeedback.value.toLowerCase()
+            : "";
+
+
+    // RATING VALUE
+    const selectedRating =
+        ratingFilter
+            ? ratingFilter.value
+            : "all";
+
+
+    // FILTER FEEDBACK
+    const filteredFeedbacks =
+        feedbacks.filter(function (feedback) {
+
+            const matchesSearch =
+                feedback.name
+                    .toLowerCase()
+                    .includes(searchText) ||
+
+                feedback.event
+                    .toLowerCase()
+                    .includes(searchText);
+
+
+            const matchesRating =
+                selectedRating === "all" ||
+                feedback.rating === selectedRating;
+
+
+            return matchesSearch && matchesRating;
+
+        });
+
+
+    savedFeedback.innerHTML = `
+        <h3>
+            Total Feedback: ${totalCount}
+        </h3>
+
+        <p>
+            Showing ${filteredFeedbacks.length}
+            result(s)
+        </p>
+    `;
+
+
+    if (filteredFeedbacks.length === 0) {
+
+        savedFeedback.innerHTML += `
+            <p>No matching feedback found.</p>
+        `;
+
+        return;
+    }
+
+
+    // DISPLAY FILTERED FEEDBACK
+    filteredFeedbacks.forEach(function (feedback) {
+
+        const originalIndex =
+            feedbacks.indexOf(feedback);
+
+        savedFeedback.innerHTML += `
+
+            <div class="event-card">
+
+                <div class="event-content">
+
+                    <h3>
+                        ${feedback.name}
+                    </h3>
+
+                    <p>
+                        <strong>Email:</strong>
+                        ${feedback.email}
+                    </p>
+
+                    <p>
+                        <strong>Event:</strong>
+                        ${feedback.event}
+                    </p>
+
+                    <p>
+                        <strong>Rating:</strong>
+                        ${feedback.rating}/5
+                    </p>
+
+                    <p>
+                        <strong>Feedback:</strong>
+                        ${feedback.feedback}
+                    </p>
+
+                    <button
+                        class="btn btn-primary"
+                        onclick="deleteFeedback(${originalIndex})"
+                    >
+                        Delete
+                    </button>
+
+                </div>
+
+            </div>
+
+        `;
+
+    });
+
+}
+
+
+// SEARCH
+if (searchFeedback) {
+
+    searchFeedback.addEventListener(
+        "input",
+        function () {
+
+            displaySavedFeedback();
+
+        }
+    );
+
+}
+
+
+// RATING FILTER
+if (ratingFilter) {
+
+    ratingFilter.addEventListener(
+        "change",
+        function () {
+
+            displaySavedFeedback();
+
+        }
+    );
+
+}
+
+
+// INITIAL DISPLAY
+displaySavedFeedback();
+
+
+
+
+// CLEAR ALL FEEDBACK
+
+
+
+const clearAllBtn =
+    document.querySelector("#clearAllBtn");
+
+if (clearAllBtn) {
+
+    clearAllBtn.addEventListener("click", function () {
+
+        const feedbacks =
+            JSON.parse(
+                localStorage.getItem("feedbacks")
+            ) || [];
+
+        if (feedbacks.length === 0) {
+
+            alert("There is no feedback to delete.");
+
+            return;
+        }
+
+        const confirmDelete =
+            confirm(
+                "Are you sure you want to delete all feedback?"
+            );
+
+        if (confirmDelete) {
+
+            localStorage.removeItem("feedbacks");
+
+            displaySavedFeedback();
+
+            alert("All feedback has been deleted.");
+        }
+
+    });
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================
+   GLOBAL RESET
+================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--light-bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+
+/* ==================================================
+   COLORS
+================================================== */
+
+:root {
+    --primary: #2563eb;
+    --primary-dark: #1d4ed8;
+
+    --dark: #0f172a;
+    --text: #334155;
+    --muted: #64748b;
+
+    --light-bg: #f8fafc;
+    --white: #ffffff;
+    --border: #e2e8f0;
+}
+
+
+/* ==================================================
+   NAVBAR
+================================================== */
+
+header {
+    background-color: var(--white);
+    border-bottom: 1px solid var(--border);
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+
+    min-height: 70px;
+    padding: 0 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Website Logo */
+
+.logo {
+    color: var(--dark);
+    font-size: 22px;
+    font-style: italic;
+}
+
+.logo span {
+    color: var(--primary);
+}
+
+
+/* Navigation */
+
+.nav-buttons {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: var(--text);
+
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: color 0.3s ease;
+}
+
+.nav-buttons a:hover {
+    color: var(--primary);
+}
+
+
+/* ==================================================
+   HERO SECTION
+================================================== */
+
+.hero {
+    max-width: 1200px;
+    margin: auto;
+
+    padding: 90px 30px;
+
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+
+    gap: 60px;
+
+    align-items: center;
+}
+
+
+/* Hero Text */
+
+.hero-content {
+    max-width: 650px;
+}
+
+.eyebrow {
+    color: var(--primary);
+
+    font-size: 13px;
+    font-weight: 800;
+
+    letter-spacing: 1.5px;
+
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    color: var(--dark);
+
+    font-size: 52px;
+    line-height: 1.1;
+
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    color: var(--muted);
+
+    font-size: 17px;
+
+    max-width: 550px;
+
+    margin-bottom: 25px;
+}
+
+
+/* ==================================================
+   HERO BUTTONS
+================================================== */
+
+.hero-buttons {
+    display: flex;
+
+    gap: 15px;
+
+    margin-top: 25px;
+
+    flex-wrap: wrap;
+}
+
+
+/* Common Button */
+
+.btn {
+    display: inline-block;
+
+    padding: 12px 22px;
+
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+
+/* Primary Button */
+
+.btn-primary {
+    background-color: var(--primary);
+
+    color: var(--white);
+
+    border: 1px solid var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+
+    border-color: var(--primary-dark);
+}
+
+
+/* Secondary Button */
+
+.btn-secondary {
+    background-color: var(--white);
+
+    color: var(--primary);
+
+    border: 1px solid var(--primary);
+}
+
+.btn-secondary:hover {
+    background-color: var(--primary);
+
+    color: var(--white);
+}
+
+
+/* ==================================================
+   LEVEL 2 - SHOW MESSAGE
+================================================== */
+
+#welcomeMessage {
+    margin-top: 25px;
+
+    color: var(--primary);
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+/* Separate Show Message button */
+
+#messageButton {
+    margin-top: 15px;
+}
+
+
+/* ==================================================
+   FEEDBACK CARD
+================================================== */
+
+.hero-visual {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-card {
+    width: 100%;
+    max-width: 360px;
+
+    padding: 35px;
+
+    background-color: var(--white);
+
+    border: 1px solid var(--border);
+
+    border-radius: 18px;
+
+    box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+}
+
+.card-label {
+    color: var(--primary);
+
+    font-size: 12px;
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 15px;
+}
+
+.feedback-card h2 {
+    color: var(--dark);
+
+    font-size: 36px;
+
+    margin-bottom: 15px;
+}
+
+.feedback-card p {
+    color: var(--text);
+
+    font-size: 15px;
+
+    margin-bottom: 15px;
+}
+
+.feedback-card span {
+    color: var(--muted);
+
+    font-size: 13px;
+}
+
+
+/* ==================================================
+   FEATURES SECTION
+================================================== */
+
+.features {
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 70px 30px 100px;
+}
+
+
+/* Section Heading */
+
+.section-heading {
+    text-align: center;
+
+    max-width: 700px;
+
+    margin: 0 auto 45px;
+}
+
+.section-heading h2 {
+    color: var(--dark);
+
+    font-size: 36px;
+
+    line-height: 1.2;
+}
+
+
+/* Feature Grid */
+
+.feature-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+
+/* Feature Card */
+
+.feature-card {
+    background-color: var(--white);
+
+    border: 1px solid var(--border);
+
+    border-radius: 16px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    transition: 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.08);
+}
+
+
+/* Feature Icon */
+
+.feature-icon {
+    font-size: 32px;
+
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    color: var(--dark);
+
+    font-size: 20px;
+
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: var(--muted);
+
+    font-size: 14px;
+}
+
+
+/* ==================================================
+   FOOTER
+================================================== */
+
+footer {
+    background-color: var(--dark);
+
+    padding: 25px 30px;
+
+    text-align: center;
+}
+
+footer p {
+    color: #cbd5e1;
+
+    font-size: 13px;
+}
+
+
+/* ==================================================
+   RESPONSIVE DESIGN
+================================================== */
+
+@media (max-width: 900px) {
+
+    .hero {
+        grid-template-columns: 1fr;
+
+        text-align: center;
+
+        padding: 70px 30px;
+    }
+
+    .hero-content {
+        margin: auto;
+    }
+
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-visual {
+        margin-top: 20px;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+
+        gap: 15px;
+
+        padding: 20px;
+    }
+
+    .nav-buttons {
+        gap: 18px;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .hero {
+        padding: 55px 20px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+    .features {
+        padding: 50px 20px 70px;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .nav-buttons {
+        gap: 12px;
+    }
+
+    .nav-buttons a {
+        font-size: 13px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+
+        align-items: stretch;
+    }
+
+    .btn {
+        text-align: center;
+    }
+
+    #messageButton {
+        width: 100%;
+    }
+
+    .feedback-card {
+        padding: 25px;
+    }
+}
+
+/* ==================================================
+   EVENTS PAGE
+================================================== */
+
+.page-header {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 70px 30px 40px;
+    text-align: center;
+}
+
+.page-header h1 {
+    color: var(--dark);
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.page-header>p:last-child {
+    color: var(--muted);
+    font-size: 16px;
+}
+
+.events-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px 90px;
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.event-card {
+    background-color: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.1);
+}
+
+.event-date {
+    padding: 22px;
+    background-color: #eff6ff;
+    color: var(--primary);
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.event-date strong {
+    font-size: 32px;
+    line-height: 1;
+}
+
+.event-date span {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.event-content {
+    padding: 25px;
+}
+
+.event-content h2 {
+    color: var(--dark);
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+
+.event-location {
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.event-content>p:not(.event-location) {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 22px;
+}
+
+
+/* ==================================================
+   FEEDBACK PAGE
+================================================== */
+
+.feedback-section {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px 30px 90px;
+}
+
+.feedback-form {
+    padding: 35px;
+
+    background-color: var(--white);
+
+    border: 1px solid var(--border);
+
+    border-radius: 16px;
+
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 22px;
+}
+
+.form-group label {
+    color: var(--dark);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+
+    padding: 12px 14px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 8px;
+
+    background-color: var(--white);
+
+    color: var(--text);
+
+    font-family: inherit;
+    font-size: 14px;
+
+    outline: none;
+
+    transition: border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: var(--primary);
+
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+/* ==================================================
+   EVENTS + FEEDBACK RESPONSIVE
+================================================== */
+
+@media (max-width: 768px) {
+
+    .event-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .page-header {
+        padding: 50px 20px 30px;
+    }
+
+    .page-header h1 {
+        font-size: 34px;
+    }
+
+    .events-section {
+        padding: 20px 20px 60px;
+    }
+
+    .feedback-section {
+        padding: 20px 20px 60px;
+    }
+
+    .feedback-form {
+        padding: 25px 20px;
+    }
+}
+
+.highlight {
+    color: var(--primary);
+}
+
+
+#successMessage {
+    margin-top: 20px;
+    text-align: center;
+    color: #16a34a;
+    font-weight: 700;
+    font-size: 15px;
+}

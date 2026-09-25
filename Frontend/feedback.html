@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Feedback - R K Events</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER / NAVBAR -->
+
+    <header>
+
+        <nav>
+
+            <h3 class="logo">
+                R K <span>Events</span>
+            </h3>
+
+            <ul class="nav-buttons">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+
+                <li>
+                    <a href="feedback.html">Feedback</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="Contactus.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+        <section class="page-header">
+
+            <p class="eyebrow">
+                R K EVENTS
+            </p>
+
+            <h1>
+                Event Feedback
+            </h1>
+
+            <p>
+                Tell us about your event experience.
+            </p>
+
+        </section>
+
+
+        <!-- FEEDBACK FORM -->
+
+        <section class="feedback-section">
+
+            <form id="feedbackForm" class="feedback-form">
+
+                <!-- NAME -->
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Full Name
+                    </label>
+
+                    <input type="text" id="name" placeholder="Enter your name">
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input type="email" id="email" placeholder="Enter your email">
+
+                </div>
+
+
+                <!-- EVENT -->
+
+                <div class="form-group">
+
+                    <label for="eventName">
+                        Select Event
+                    </label>
+
+                    <select id="eventName">
+
+                        <option value="">
+                            Select an event
+                        </option>
+
+                        <option value="Tech Conference 2026">
+                            Tech Conference 2026
+                        </option>
+
+                        <option value="AI Workshop">
+                            AI Workshop
+                        </option>
+
+                        <option value="College Fest 2026">
+                            College Fest 2026
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- RATING -->
+
+                <div class="form-group">
+
+                    <label for="rating">
+                        Rating
+                    </label>
+
+                    <select id="rating">
+
+                        <option value="">
+                            Select rating
+                        </option>
+
+                        <option value="5">
+                            ⭐⭐⭐⭐⭐ - 5
+                        </option>
+
+                        <option value="4">
+                            ⭐⭐⭐⭐ - 4
+                        </option>
+
+                        <option value="3">
+                            ⭐⭐⭐ - 3
+                        </option>
+
+                        <option value="2">
+                            ⭐⭐ - 2
+                        </option>
+
+                        <option value="1">
+                            ⭐ - 1
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- FEEDBACK -->
+
+                <div class="form-group">
+
+                    <label for="feedback">
+                        Your Feedback
+                    </label>
+
+                    <textarea id="feedback" rows="5" placeholder="Write your feedback..."></textarea>
+
+                </div>
+
+
+                <!-- SUBMIT -->
+
+                <button type="submit" class="btn btn-primary submit-btn">
+                    Submit Feedback
+                </button>
+
+            </form>
+
+
+            <!-- SUCCESS MESSAGE -->
+
+            <p id="successMessage"></p>
+
+
+            <!-- SAVED FEEDBACK -->
+            <div class="feedback-tools">
+
+                <input type="text" id="searchFeedback" placeholder="Search by name or event...">
+
+                <select id="ratingFilter">
+                    <option value="all">All Ratings</option>
+                    <option value="5">5 Stars</option>
+                    <option value="4">4 Stars</option>
+                    <option value="3">3 Stars</option>
+                    <option value="2">2 Stars</option>
+                    <option value="1">1 Star</option>
+                </select>
+
+            </div>
+
+            <div id="savedFeedback"></div>
+            <button id="clearAllBtn" class="btn btn-primary">
+                Clear All Feedback
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 Event Feedback Management System.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
