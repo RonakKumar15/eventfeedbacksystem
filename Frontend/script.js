@@ -3,7 +3,7 @@
 // R K EVENTS - FRONTEND + FASTAPI
 // =====================================
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://event-feedback-management-system-xeor.onrender.com";
 
 console.log("R K Events frontend loaded!");
 
